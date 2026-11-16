@@ -131,6 +131,9 @@ require __DIR__ . '/../includes/header.php';
         <?php endforeach; ?>
     </select>
 
+
+    <!-- this is not working -->
+
     <button class="btn" type="submit">Issue book</button>
 </form>
 <p><a href="<?= e(url('loans/index.php')) ?>">Back to loans</a></p>
